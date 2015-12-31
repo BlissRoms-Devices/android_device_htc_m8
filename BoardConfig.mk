@@ -88,8 +88,8 @@ BLISS_PIPE := true
 # Link_Time_Optimizations := true
 # TARGET_USE_ION_COMPAT := true
 # TARGET_USE_KRAIT_PLD_SET := true
-TARGET_TC_ROM :=5.2-linaro
-TARGET_TC_KERNEL := 4.8
+TARGET_TC_ROM := 5.2-linaro
+TARGET_TC_KERNEL := 4.9-linaro
 #TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 TARGET_ENABLE_UKM := true
@@ -99,7 +99,7 @@ TARGET_ENABLE_UKM := true
 # need - https://github.com/peterjc/backports.lzma
 # specifically, read - https://github.com/peterjc/backports.lzma/blob/master/README.md
 # - Also make sure you have python-dev installed.
-# WITH_LZMA_OTA := true
+WITH_LZMA_OTA := true
 
 
 #SaberMod
