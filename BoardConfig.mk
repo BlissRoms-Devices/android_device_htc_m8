@@ -89,11 +89,11 @@ BLISS_PIPE := true
 # TARGET_USE_ION_COMPAT := true
 # TARGET_USE_KRAIT_PLD_SET := true
 TARGET_TC_ROM := 5.2-linaro
-TARGET_TC_KERNEL := 4.9-linaro
+TARGET_TC_KERNEL := 5.2-linaro
 #TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 TARGET_ENABLE_UKM := true
-# BLISS_BUILDTYPE := OFFICIAL
+#BLISS_BUILDTYPE := OFFICIAL
 # BLISS_DEVELOPER := fizbanrapper
 # LZMA and notes - comment out the line if you can't figure it out...
 # need - https://github.com/peterjc/backports.lzma
