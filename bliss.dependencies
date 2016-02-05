@@ -21,7 +21,7 @@
     "remote":      "github",
     "repository":  "pstrangwrzekle/android_kernel_htc_msm8974",
     "target_path": "kernel/htc/msm8974",
-    "revision":    "M-staging-gcc5"
+    "revision":    "M-beta"
   },
   {
     "remote":      "github",
