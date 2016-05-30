@@ -13,26 +13,20 @@
   },
   {
     "remote":      "github",
-    "repository":  "pstrangwrzekle/android_device_htc_msm8974-common",
+    "repository":  "Team-M8/android_device_htc_msm8974-common",
     "target_path": "device/htc/msm8974-common",
     "revision":    "cm-13.0"
   },
   {
     "remote":      "github",
-    "repository":  "pstrangwrzekle/android_kernel_htc_msm8974",
+    "repository":  "Team-M8/android_kernel_htc_msm8974",
     "target_path": "kernel/htc/msm8974",
-    "revision":    "M-beta"
+    "revision":    "M-staging"
   },
   {
     "remote":      "github",
     "repository":  "CyanogenMod/android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision":    "cm-13.0"
-  },
-  {
-    "remote":      "github",
-    "repository":  "CyanogenMod/android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager",
     "revision":    "cm-13.0"
   },
   {
