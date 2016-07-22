@@ -25,5 +25,4 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 PRODUCT_NAME := bliss_m8
 
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.product.device=M8 \
-    ro.product.model=One
+    ro.product.device=htc_m8

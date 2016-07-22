@@ -61,9 +61,11 @@ TARGET_UNIFIED_DEVICE := true
 # Inherit from the proprietary version
 -include vendor/htc/m8/BoardConfigVendor.mk
 
+# Enable dex-preoptimization to speed up first boot sequence
 #WITH_DEXPREOPT := true
-#WITH_DEXPREOPT_PIC :=true
-#WITH_DEXPREOPT_COMP :=true
+#WITH_DEXPREOPT_PIC := true
+#WITH_DEXPREOPT_COMP := true
+#DONT_DEXPREOPT_PREBUILTS := true
 
 # Enable Minikin text layout engine (will be the default soon)
 # USE_MINIKIN := true
@@ -75,7 +77,7 @@ TARGET_UNIFIED_DEVICE := true
 USE_CLANG_PLATFORM_BUILD := false
 BLISS_WIPE_CACHES := 1
 BLISSIFY := true
-BLISS_O3 := true
+BLISS_O3 := false
 BLISS_STRICT := false
 BLISS_GRAPHITE := false
 BLISS_KRAIT := true
@@ -89,8 +91,8 @@ BLISS_PIPE := true
 # Link_Time_Optimizations := true
 # TARGET_USE_ION_COMPAT := true
 # TARGET_USE_KRAIT_PLD_SET := true
-TARGET_TC_ROM := 5.3
-TARGET_TC_KERNEL := 5.3
+TARGET_TC_ROM := 4.9
+TARGET_TC_KERNEL := 4.9
 #TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
 TARGET_ENABLE_UKM := true
